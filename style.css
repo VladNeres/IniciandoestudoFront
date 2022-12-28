@@ -1,27 +1,50 @@
-    body {
-        background: #cccccc
-    }
-    
-    #banner {
-        width: 100%;
-    }
-    
-    h1 {
-        text-align: center;
-    }
-    
-    p {
-        text-align: center;
-    }
-    
-    #missao {
-        font-size: 20px;
-    }
-    
-    em strong {
-        color: red;
-    }
-    
-    .itens {
-        font-style: italic;
-    }
+body {}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.Beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
