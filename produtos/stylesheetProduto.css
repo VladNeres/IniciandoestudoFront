@@ -21,8 +21,6 @@ nav li {
 }
 
 nav a {
-    top: 0%;
-    right: 0%;
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -33,18 +31,6 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline
-}
-
-.produtos li:hover {
-    border-color: #c78c19
-}
-
-.produtos li:active {
-    border-color: #088c19
-}
-
-.produtos li:hover h2 {
-    font-size: 34px;
 }
 
 .produtos {
@@ -63,6 +49,24 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78c19
+}
+
+.produtos li:active {
+    border-color: #088c19
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .produtos h2 {
@@ -90,4 +94,86 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/*css principal Vlad*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5
+}
+
+.itens :first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
